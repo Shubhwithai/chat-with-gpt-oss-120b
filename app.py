@@ -59,14 +59,23 @@ with st.sidebar:
     # === MODEL INFO SECTION ===
     st.markdown("### 🤖 Model Information")
     
+    # Using columns to align model information
     col1, col2 = st.columns([1, 2])
     with col1:
         st.markdown("**Model:**")
-        st.markdown("**Provider:**")
-        st.markdown("**Status:**")
     with col2:
         st.markdown("`gpt-oss-120b`")
+
+    col1, col2 = st.columns([1, 2])
+    with col1:
+        st.markdown("**Provider:**")
+    with col2:
         st.markdown("Cerebras")
+
+    col1, col2 = st.columns([1, 2])
+    with col1:
+        st.markdown("**Status:**")
+    with col2:
         st.markdown("🟢 Active")
     
     st.markdown("---")
