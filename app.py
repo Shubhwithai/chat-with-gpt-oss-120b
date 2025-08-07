@@ -156,3 +156,4 @@ if prompt := st.chat_input("What's on your mind?"):
 
     except Exception as e:
         st.error(f"An error occurred: {e}")
+
