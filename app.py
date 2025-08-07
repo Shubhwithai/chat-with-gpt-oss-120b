@@ -5,12 +5,12 @@ import os
 
 # Page configuration
 st.set_page_config(
-    page_title="Chat With gpt-oss-120b",
+    page_title="Chat With gpt-oss-1",
     page_icon="🚀",
     layout="centered",
     initial_sidebar_state="expanded",
 )
-st.title("🚀 Chat With Gpt-Oss-120b")
+st.title("🚀 Chat With GPT-OSS")
 st.write("Powered By [Cerebras](https://cerebras.ai/models)")
 
 # Sidebar for API key input and details
